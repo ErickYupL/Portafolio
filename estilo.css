@@ -11,7 +11,7 @@ html{
 }
 /* MENU */
 .contenedor-header{
-    background: #1e2326;
+    background: #2c2a96;
     position: fixed;
     width: 100%;
     top: 0;
@@ -29,7 +29,7 @@ html{
 .contenedor-header header .logo a{
     font-family: 'Righteous';
     font-size: 36px;
-    color: #1CB698;
+    color: #1cb645;
     text-decoration: none;
 }
 .contenedor-header header ul{
@@ -38,7 +38,7 @@ html{
 }
 .contenedor-header header nav ul li a{
     text-align: none;
-    color: #fff;
+    color: #0ce810;
     margin: 0 15px;
     padding: 3px;
     transition: .5s;
@@ -58,7 +58,7 @@ html{
 /* SECCION I N I C I O */
 .inicio{
     background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
-    url(img/fondo.jpg);
+    url(img/fondo2.jpeg);
     background-size: cover;
     height: 100vh;
     color: #fff;
@@ -109,7 +109,7 @@ html{
 
 
 .sobremi{
-    background-color: #1e2326;
+    background-color: #04334f;
     color: #fff;
     padding: 50px 20px;
 }
@@ -169,7 +169,7 @@ html{
 .sobremi .fila .col .contenedor-intereses .interes{
     width: 100px;
     height: 100px;
-    background-color: #252A2E;
+    background-color: #1280da;
     border-radius: 10px;
     margin: 0 15px 15px 0;
     display: flex;
@@ -277,7 +277,7 @@ html{
 }
 @keyframes javascript {
     0%{width: 0%;}
-    100%{width: 80%;}
+    100%{width: 50%;}
 }
 
 .skills .skill .htmlcss{
@@ -286,7 +286,7 @@ html{
 }
 @keyframes htmlcss {
     0%{width: 0%;}
-    100%{width: 89%;}
+    100%{width: 81%;}
 }
 
 .skills .skill .photoshop{
@@ -304,7 +304,7 @@ html{
 }
 @keyframes wordpress {
     0%{width: 0%;}
-    100%{width: 91%;}
+    100%{width: 60%;}
 }
 
 .skills .skill .python{
@@ -322,7 +322,7 @@ html{
 }
 @keyframes comunicacion {
     0%{width: 0%;}
-    100%{width: 75%;}
+    100%{width: 85%;}
 }
 
 .skills .skill .trabajo{
@@ -331,7 +331,7 @@ html{
 }
 @keyframes trabajo {
     0%{width: 0%;}
-    100%{width: 80%;}
+    100%{width: 85%;}
 }
 
 .skills .skill .creatividad{
@@ -349,7 +349,7 @@ html{
 }
 @keyframes dedicacion {
     0%{width: 0%;}
-    100%{width: 75%;}
+    100%{width: 99%;}
 }
 
 .skills .skill .proyect{
@@ -362,7 +362,7 @@ html{
 }
 /* SECCION CURRICULUM */
 .curriculum{
-    background-color: #1e2326;
+    background-color: #04334f;
     color: #fff;
     padding: 50px 20px;
 }
@@ -526,7 +526,7 @@ html{
 /* SECCION CONTACTO */
 .contacto{
     background-image: url(img/contact_bg.png);
-    background-color: #1e2326;
+    background-color: #04334f;
     color: #fff;
     padding: 50px 0;
 }
@@ -592,7 +592,7 @@ html{
     top: 40%;
     background-color: #252A2E;
     padding: 20px;
-    max-swidth: 350px;
+    max-width: 350px;
     left: 50%;
     transform: translate(-50%, -50%);
 }
