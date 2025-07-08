@@ -289,22 +289,22 @@ html{
     100%{width: 81%;}
 }
 
-.skills .skill .photoshop{
+.skills .skill .java{
     width: 0%;
-    animation: 2s photoshop forwards;
+    animation: 2s java forwards;
 }
-@keyframes photoshop {
-    0%{width: 0%;}
-    100%{width: 75%;}
-}
-
-.skills .skill .wordpress{
-    width: 0%;
-    animation: 2s wordpress forwards;
-}
-@keyframes wordpress {
+@keyframes java {
     0%{width: 0%;}
     100%{width: 60%;}
+}
+
+.skills .skill .php{
+    width: 0%;
+    animation: 2s php forwards;
+}
+@keyframes php {
+    0%{width: 0%;}
+    100%{width: 55%;}
 }
 
 .skills .skill .python{
@@ -314,6 +314,16 @@ html{
 @keyframes python {
     0%{width: 0%;}
     100%{width: 85%;}
+}
+
+.skills .skill .sql{
+    width: 0%;
+    animation: 2s sql forwards;
+}
+
+@keyframes sql {
+    0%{width: 0%;}
+    100%{width: 70%;}
 }
 
 .skills .skill .comunicacion{
@@ -360,6 +370,8 @@ html{
     0%{width: 0%;}
     100%{width: 90%;}
 }
+
+
 /* SECCION CURRICULUM */
 .curriculum{
     background-color: #04334f;
